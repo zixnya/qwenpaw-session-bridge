@@ -8,11 +8,25 @@ QwenPaw 的对话 session 文件天然存储了全部历史对话原文和摘要
 
 ## 安装
 
+**方法一：直接复制**
+
 将 `skills/接续对话.md` 放到 QwenPaw workspace 的 `skills/` 目录下：
 
-```
+```bash
+# Linux/macOS
 cp skills/接续对话.md $HOME/.qwenpaw/workspaces/default/skills/
+
+# Windows PowerShell
+copy skills\接续对话.md %USERPROFILE%\.qwenpaw\workspaces\default\skills\
 ```
+
+**方法二：通过 QwenPaw 注册（推荐）**
+
+在对话中让 QwenPaw 执行：
+
+> 把这个 skill 注册一下：`skills/接续对话.md`
+
+QwenPaw 会自动扫描并启用。
 
 ## 使用
 
